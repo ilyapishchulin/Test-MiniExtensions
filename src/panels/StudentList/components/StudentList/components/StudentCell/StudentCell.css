@@ -1,0 +1,20 @@
+.StudentCell {
+  --font-family: -apple-system, BlinkMacSystemFont, Roboto, serif;
+
+  margin-top: 10px;
+  border: 1px solid black;
+
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.StudentCell__title,
+.StudentCell__description {
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+.StudentCell__description {
+  display: block;
+  margin-top: 14px;
+}
